@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+      /* Styling for input file preview image */
+  .thumb {
+    height: 100px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+  }
+    
+    .navbar {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6e6ff;
+    }
+    
+    .navbar a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    }
+    
+    .header img {
+      width:800px;   
+      padding:15px 0px 2px 2px;
+      height:120px;
+      border-radius: 10px;
+    }
+    span.heads {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      /* Styling for the form table */
+  table {
+    margin: 20px auto;
+    background-color: #fff;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 55%;
+  }
+  
+  table th {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  table td {
+    padding: 10px;
+  }
+  
+  .warn input[type="text"],
+  .warn textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .warn input[type="date"],
+  .warn textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .warn input[type="submit"],
+  .warn input[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .warn input[type="submit"]:hover,
+  .warn input[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
+  .heads {
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .errors {
+    color: red;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  .label {
+    text-align: center;
+  }
+
+   /* Styling for buttons */
+  input[type="button"],
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  input[type="button"]:hover,
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+    /* Center alignment for buttons */
+  center {
+    margin-top: 20px;
+  }
+  
+    /* Styling for error messages */
+    .error {
+        color: red;
+        font-weight: bold;
+      }
+    
+    

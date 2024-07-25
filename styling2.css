@@ -1,0 +1,76 @@
+/* Styling for the buttons */
+input[type="button"],
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="button"]:focus,
+input[type="submit"]:focus {
+  outline: none;
+}
+
+.header img {
+  width:800px;   
+  padding:15px 0px 2px 2px;
+  height:120px;
+  border-radius: 10px;
+}
+
+.photo-label {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+
+.preview {
+  max-width: 200px;
+  max-height: 100px;
+  margin-top: 10px;
+}
+
+/* Styling for the form */
+form {
+  margin: 0 auto;
+  width: 70%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 10px;
+}
+
+.thumb {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.heads {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
